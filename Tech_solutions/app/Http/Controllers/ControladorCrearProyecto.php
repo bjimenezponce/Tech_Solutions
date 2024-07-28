@@ -18,15 +18,6 @@ class ControladorCrearProyecto extends Controller
         $proyectoMonto = ModelProyecto::GetMonto();
         return view ('CrearProyectoView', compact('proyectoId', 'proyectoNombre','proyectoDate','proyectoEstado','proyectoResponsable','proyectoMonto'));
     }
-    
-    
-    
-
-    // public function update($_nuevo){ //considerar que tengo que asignar el id // $nuevo->setId(1);
-    //     //para actualizar un registro $_nuevo->getId()
-    //     //UPDATE tabla SET atributo WHERE id = $_nuevo->getId()
-    // }
-    
 
     
 }
